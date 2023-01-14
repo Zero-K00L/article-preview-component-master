@@ -138,16 +138,59 @@ body {
     display: inline;
     margin-left: 33px;
     position: relative;
-    top: 21px;
+    top: 18px;
     color: var(--grayishBlue);
+    font-size: 12px;
     font-weight: 500;
     letter-spacing: 5px;
   }
 
+.menu-icon {
+    position: relative;
+    top: 23px;
+    cursor: pointer;
+}  
+
+.icon-1 {
+    margin-left: 18px;
+}
+
+.icon-2 {
+    margin-left: 17px;
+}
+
+.icon-3 {
+    margin-left: 17px;
+}
+
+.icon-container-active {
+
+    border-radius: 50%;
+    background-color: var(--desaturatedDarkBlue);
+    width: 33px;
+    height: 33px;
+    position: relative;
+    top: -9px;
+    left: 261px;
+    cursor: pointer;
+
+}
+
+.share-icon-active {
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 /* Helper Classes */
 
 .hidden {
     display: none;
     opacity: 0;
+}
+
+.active {
+    display: inline-block;
+    opacity: 1;
 }
