@@ -194,3 +194,115 @@ body {
     display: inline-block;
     opacity: 1;
 }
+
+/* Media Query */
+
+/* Large Devices(laptops/desktops, 992px and up) */
+@media only screen and (min-width:992px) {
+    .main {
+        width: 100%;
+        max-width: 733px;
+        height: 280px;
+       
+    }
+
+    .main-img-container {
+        width: 285px;
+        height: 280px;
+        
+    }
+
+    .main-img {
+        width: 350px;
+        max-width: none;
+        height: 280px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .main-txt {
+        display: inline-block;
+        position: relative;
+        left: 325px;
+        top: -279px;
+        margin: 0;
+        letter-spacing: 0.25px;
+        
+    }
+
+    .main-header {
+        width: 51%;
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .main-desc {
+        width: 50%;
+        position: relative;
+        top: -3px;
+        font-size: 12.5px;
+        letter-spacing: 0.33px;
+    }
+
+    footer {
+        display: inline-block;
+        position: relative;
+        top: -290px;
+        left: 292px;
+    }
+
+    .author-name {
+        left: 2px;
+        letter-spacing: 0.1px;
+    }
+
+    .article-date {
+        left: -117px;
+        top: -5px;
+        letter-spacing: 0.1px;
+    }
+
+    .icon-container {
+        left: 83px;
+        top: -4px;
+        width: 32px;
+        height: 32px;
+    }
+
+    .share-menu {
+        width: 248px;
+        height: 55px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        position: relative;
+        left: 258px;
+        top: -79px;
+    }
+
+    .menu-text {
+        top: 13px;
+        left: 4px;
+        letter-spacing: 5.5px;
+    }
+
+    .menu-icon {
+        top: 18px;
+        left: 1px;
+    }
+
+    .icon-2 {
+        position: relative;
+        left: -4px;
+        top: 17px;
+    }
+
+    .icon-3 {
+        margin-left: 8px;
+    }
+
+    .icon-container-active {
+        
+    }
+
+}

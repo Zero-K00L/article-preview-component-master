@@ -1,5 +1,5 @@
-const shareBtn = document.querySelector('.share-icon');
-const shareBtnActive = document.querySelector('.share-icon-active');
+const shareBtn = document.querySelector('.icon-container');
+const shareBtnActive = document.querySelector('.icon-container-active');
 var articleInfo = document.querySelector('.article-info');
 var shareMenu = document.querySelector('.share-menu');
 
