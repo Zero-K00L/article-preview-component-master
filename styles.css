@@ -277,7 +277,7 @@ body {
         border-top-left-radius: 10px;
         position: relative;
         left: 258px;
-        top: -79px;
+        top: -136px;
     }
 
     .menu-text {
@@ -302,7 +302,19 @@ body {
     }
 
     .icon-container-active {
-        
+        width: 32px;
+        height: 32px;
+        top: 58px;
+        left: 108px;
+    }
+
+    .share-icon-active {
+        left: 52%;
+    }
+
+    .hidden {
+        opacity: 1;
+        display: inline-block;
     }
 
 }
