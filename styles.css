@@ -327,8 +327,12 @@ body {
 
     /* Helper Classes */
     .hidden {
-        opacity: 1;
+        opacity: 0;
         display: inline-block;
+    }
+
+    .active {
+        opacity: 1;
     }
 
     .opacity {
