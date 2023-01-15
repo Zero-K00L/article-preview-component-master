@@ -164,7 +164,6 @@ body {
 }
 
 .icon-container-active {
-
     border-radius: 50%;
     background-color: var(--desaturatedDarkBlue);
     width: 33px;
@@ -173,7 +172,6 @@ body {
     top: -9px;
     left: 261px;
     cursor: pointer;
-
 }
 
 .share-icon-active {
@@ -190,11 +188,6 @@ body {
     opacity: 0;
 }
 
-.active {
-    display: inline-block;
-    opacity: 1;
-}
-
 .opacity {
     opacity: 0;
     display: none;
@@ -208,7 +201,7 @@ body {
         width: 100%;
         max-width: 730px;
         height: 280px;
-       
+        box-shadow: 0px 4px 18px -5px var(--veryDarkGrayishBlue);
     }
 
     .main-img-container {
@@ -233,7 +226,6 @@ body {
         top: -279px;
         margin: 0;
         letter-spacing: 0.25px;
-        
     }
 
     .main-header {
@@ -283,6 +275,7 @@ body {
         position: relative;
         left: 258px;
         top: -136px;
+        box-shadow: 0px 4px 13px -5px var(--veryDarkGrayishBlue);
     }
 
     .menu-text {
@@ -320,8 +313,6 @@ body {
     .share-icon-active {
         left: 51%;
     }
-
-
 
     .triangle {
         width: 0;
