@@ -197,6 +197,10 @@ body {
 
 /* Large Devices(laptops/desktops, 992px and up) */
 @media only screen and (min-width:992px) {
+    body {
+        overflow: hidden;
+    }
+
     .main {
         width: 100%;
         max-width: 730px;
@@ -219,7 +223,7 @@ body {
     }
 
     .main-txt {
-        display: inline-block;
+        display: inline;
         position: relative;
         left: 325px;
         top: -279px;
